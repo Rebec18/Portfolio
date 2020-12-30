@@ -46,7 +46,7 @@ body {
       border-radius: 7px;
       width: 700px;
       margin: auto;
-      background-color: rgb(213, 217, 223);
+      /* background-color: rgb(213, 217, 223); */
       padding: 10px;
       margin-bottom: 10px;
   }
@@ -59,6 +59,14 @@ body {
     padding: 10px;
     margin-bottom: 10px;
   }
+
+  .formation h2 {
+      text-align: center;
+  }
+
+  .projets h2 {
+    text-align: center;
+}
 
   .profile {
     border: solid red;
