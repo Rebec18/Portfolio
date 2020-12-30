@@ -1,7 +1,6 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 15px;
-    background-color: 222831;
 }
 
 .card-product {
@@ -35,5 +34,27 @@ body {
   
   .card-product .card-product-infos {
     padding: 16px;
+  }
+
+  .projets {
+      border: solid red;
+      border-radius: 7px;
+      width: 400px;
+      margin: auto;
+  }
+
+  .formation {
+    border: solid red;
+    border-radius: 7px;
+    width: 400px;
+    margin: auto;
+  }
+
+  .profile {
+    border: solid red;
+    border-radius: 7px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
   }
   
