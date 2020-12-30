@@ -42,22 +42,21 @@ body {
   }
 
   .projets {
-      border: solid red;
       border-radius: 7px;
       width: 700px;
       margin: auto;
-      background-color: #F5F4F4;
+      background-color: #E9EBEC;
       padding: 10px;
       margin-bottom: 10px;
   }
 
   .formation {
-    border: solid red;
     border-radius: 7px;
     width: 700px;
     margin: auto;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: #E9EBEC;
   }
 
   .formation h2 {
@@ -69,22 +68,22 @@ body {
 }
 
   .profile {
-    border: solid red;
     border-radius: 7px;
     width: 700px;
     margin: auto;
     text-align: center;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: #E9EBEC;
   }
 
   .title {
-    border: solid red;
     border-radius: 7px;
     width: 700px;
     margin: auto;
     padding: 10px;
     text-align: center;
     margin-bottom: 10px;
+    background-color: #E9EBEC;
   }
   
