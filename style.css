@@ -1,7 +1,7 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 15px;
-    background-color: #07305C;
+    background: linear-gradient(#27118b, #5ad2e7);;
 }
 
 .card-product {
@@ -58,6 +58,7 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     background-color: #E9EBEC;
+    opacity: 0.6;
   }
 
   .formation h2 {
