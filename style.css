@@ -28,7 +28,7 @@ body {
   }
 
   .card-product-infos {
-      text-emphasis: none;
+      text-decoration: none;
   }
   
   .card-product p {
