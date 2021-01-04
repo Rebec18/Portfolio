@@ -4,6 +4,10 @@ body {
     /* background: linear-gradient(#0a043c, #03506f); */
 }
 
+h2 {
+    color: #f05454;
+}
+
 .card-product {
     overflow: hidden;
     height: 120px;
@@ -27,9 +31,14 @@ body {
     margin: 0;
   }
 
-  .card-product-infos {
-      text-decoration: none;
-  }
+  /* .card-product-infos {
+      h3 {
+          a {
+            text-decoration: none;
+            }
+        
+        }
+    } */
   
   .card-product p {
     font-size: 14px;
