@@ -1,37 +1,37 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    /* background: linear-gradient(#0a043c, #03506f); */
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  /* background: linear-gradient(#0a043c, #03506f); */
 }
 
 h2 {
-    color: #f05454;
+  color: #f05454;
 }
 
 .card-product {
-    overflow: hidden;
-    height: 120px;
-    background: white;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    border-radius: 7px;
-  }
-  
-  .card-product img {
-    height: 100%;
-    width: 120px;
-    object-fit: cover;
-  }
-  
-  .card-product h2 {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0;
-  }
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
 
-  /* .card-product-infos {
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* .card-product-infos {
       h3 {
           a {
             text-decoration: none;
@@ -39,63 +39,66 @@ h2 {
         
         }
     } */
-  
-  .card-product p {
-    font-size: 14px;
-    line-height: 1.4;
-    opacity: .7;
-    margin-bottom: 0;
-    margin-top: 8px;
-  }
-  
-  .card-product .card-product-infos {
-    padding: 16px;
-  }
 
-  .projets {
-      border-radius: 7px;
-      width: 700px;
-      margin: auto;
-      background-color: #E9EBEC;
-      padding: 10px;
-      margin-bottom: 10px;
-  }
-
-  .formation {
-    border-radius: 7px;
-    width: 700px;
-    margin: auto;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #E9EBEC;
-    opacity: 1.0;
-    text-align: center;
-  }
-
-  .formation h2 {
-      text-align: center;
-  }
-
-  .projets h2 {
-    text-align: center;
+.card-product p {
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0.7;
+  margin-bottom: 0;
+  margin-top: 8px;
 }
 
-  .profile {
-    border-radius: 7px;
-    width: 700px;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #E9EBEC;
-  }
+.card-product .card-product-infos {
+  padding: 16px;
+}
 
-  .title {
-    border-radius: 7px;
-    width: 700px;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
+.projets {
+  border-radius: 7px;
+  width: 700px;
+  margin: auto;
+  background-color: #e9ebec;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.formation {
+  border-radius: 7px;
+  width: 700px;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e9ebec;
+  opacity: 1;
+  text-align: center;
+}
+
+.formation h2 {
+  text-align: center;
+}
+
+.projets h2 {
+  text-align: center;
+}
+
+.profile {
+  border-radius: 7px;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e9ebec;
+}
+
+.title {
+  border-radius: 7px;
+  width: 700px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  color: black;
+}
