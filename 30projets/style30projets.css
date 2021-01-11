@@ -47,6 +47,11 @@
   text-align: center;
 }
 
+.card-category > a:hover {
+  color: #070d59;
+  background-color: #9ddfd3;
+}
+
 .card-category:hover {
   color: #070d59;
   background-color: #9ddfd3;
