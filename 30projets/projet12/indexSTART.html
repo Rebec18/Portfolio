@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+<script>
+  const pressed = [];
+  const secretCode = 'rebecs';
+  window.addEventListener('keyup', (e) => {
+    console.log(e.key);
+    pressed.push(e.key);
+    // limit to numbers of characters : take the last key taped and add news but stay limited
+    pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+    if (pressed.join('').includes(secretCode)) {
+      console.log('OK! OK!');
+      cornify_add();
+    }
+    console.log(pressed);
+  })
+</script>
+</body>
+</html>
